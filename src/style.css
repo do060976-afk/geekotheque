@@ -110,3 +110,55 @@
   .sidebar { justify-content: flex-start !important; }
   .sidebar nav { justify-content: flex-start !important; }
 }
+
+
+/* V9 — Accès aux sauvegardes JSON sur mobile */
+@media (max-width: 850px) {
+  .sidebar {
+    justify-content: flex-start !important;
+    gap: 6px;
+    overflow: visible;
+  }
+  .sidebar nav {
+    flex: 1 1 auto;
+    min-width: 0;
+    width: auto !important;
+  }
+  .sidebar-bottom {
+    display: flex !important;
+    flex: 0 0 auto;
+    width: auto;
+    margin: 0;
+    gap: 5px;
+    align-items: center;
+  }
+  .sidebar-bottom button,
+  .sidebar-bottom .navbutton {
+    display: flex !important;
+    flex: 0 0 auto;
+    min-width: 42px;
+    min-height: 44px;
+    padding: 7px 8px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+    border-radius: 10px;
+    font-size: 9px !important;
+    white-space: nowrap;
+    background: #463c86;
+    color: #fff;
+  }
+  .sidebar-bottom button svg,
+  .sidebar-bottom .navbutton svg {
+    width: 19px;
+    height: 19px;
+  }
+  .sidebar-bottom .offline { display: none !important; }
+}
+@media (max-width: 560px) {
+  .sidebar { gap: 3px; padding-left: 5px; padding-right: 5px; }
+  .sidebar nav button,
+  .sidebar nav button:not(.active) { flex-basis: 68px !important; width:68px; min-width:68px; }
+  .sidebar-bottom button,
+  .sidebar-bottom .navbutton { min-width: 38px; padding: 6px; }
+}
