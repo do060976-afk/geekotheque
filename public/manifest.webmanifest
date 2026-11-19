@@ -1,1 +1,31 @@
-{"name":"Geekothèque","short_name":"Geekothèque","start_url":".","display":"standalone","background_color":"#f6f4ff","theme_color":"#29205a","description":"Ma collection pop culture et rétro","icons":[]}
+{
+  "name": "Geekothèque",
+  "short_name": "Geekothèque",
+  "start_url": "/geekotheque/",
+  "scope": "/geekotheque/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#f6f4ff",
+  "theme_color": "#29205a",
+  "description": "Ma collection pop culture et rétro",
+  "icons": [
+    {
+      "src": "/geekotheque/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/geekotheque/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/geekotheque/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}
